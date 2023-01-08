@@ -1,4 +1,4 @@
-# 🇬🇧/🇺🇸 Data Structures and Algorithms
+# 🇬🇧 🇺🇸 Data Structures and Algorithms
 
 This repository contains a very simple Java project which object is to serve as a laboratory to study, practice and test the concepts that I am lead to face as the core of Computer Science, described in the title of this file.
 
@@ -6,7 +6,7 @@ The implementation of each concept was  mainly embased in two books, listed belo
 1. [https://www.amazon.com.br/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230/ref=sr_1_1?crid=I2C3OE544DTY&keywords=grokking+algorithms&qid=1673216612&sprefix=grokk%2Caps%2C267&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678](Grokking Algorithms), a great title that explains the concepts and ideas related to data structures and algorithms using a lightweight and friendly approach; 
 2. [https://www.amazon.com.br/Common-Sense-Guide-Data-Structures-Algorithms/dp/1680507222/ref=sr_1_1?keywords=a+common-sense+guide+to+data+structures+and+algorithms&qid=1673216777&sprefix=a+common%2Caps%2C330&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74](A Common-Sense Guide to Data Structures and Algorithms, Second Edition: Level Up Your Core Programming Skills), another great book that provides a deeper vision about the concepts mentioned above, with a special focus about the discipline of the Analysis of Algorithms, using most of all the Big O Notation.
 
-# 🇧🇷/🇵🇹 Estrutura de Dados e Algorítmos
+# 🇧🇷 🇵🇹 Estrutura de Dados e Algorítmos
 
 Este repositório armazena um projeto Java bastante simples cujo principal objetivo é funcionar como um laboratório para estudar, praticar e testar os conceitos que eu encaro como centrais dentro da Ciência da Computação.
 
