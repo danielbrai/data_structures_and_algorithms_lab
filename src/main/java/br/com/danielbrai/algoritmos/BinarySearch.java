@@ -1,6 +1,5 @@
 package br.com.danielbrai.algoritmos;
 
-import java.util.Arrays;
 import java.util.Objects;
 
 public class BinarySearch {
@@ -11,21 +10,25 @@ public class BinarySearch {
             return null;
         }
 
-        do {
+        int start = 0;
+        int end = arr.length;
+        int index = (end - start) / 2;
 
-            int index = arr.length / 2;
+        do {
 
             if (arr[index] == elemento) {
                 return index;
             }
 
-            if (arr[index] > elemento) {
-                arr = Arrays.copyOfRange(arr, 0, arr.length - 1);
+            if (arr[index] < elemento) {
+                start = index + 1;
+                index = start + ((end - start) / 2);
             } else {
-                arr = Arrays.copyOfRange(arr, 0, arr.length + 1);
+                end = index - 1;
+                index = (end - start) / 2;
             }
 
-        } while (arr.length > 0);
+        } while (end >= 0);
 
         return null;
     }

@@ -53,4 +53,20 @@ class BinarySearchTest {
         Integer result = this.binarySearch.execute(arr, desiredElement);
         assertNull(result);
     }
+
+    @Test
+    void shouldReturnTheIndexWhereElementIsLocatedIfItIsInTheLastPositionInArrayEvenInGreatINputs() {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17};
+        int desiredElement = 17;
+        Integer result = this.binarySearch.execute(arr, desiredElement);
+        assertEquals(16, result);
+    }
+
+    @Test
+    void shouldReturnTheIndexWhereElementIsLocatedIfItIsInTheFisrtPositionInArrayEvenInGreatINputs() {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17};
+        int desiredElement = 1;
+        Integer result = this.binarySearch.execute(arr, desiredElement);
+        assertEquals(0, result);
+    }
 }
