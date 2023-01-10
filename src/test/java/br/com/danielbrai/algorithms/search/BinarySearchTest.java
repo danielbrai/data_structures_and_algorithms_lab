@@ -1,5 +1,6 @@
-package br.com.danielbrai.algoritmos;
+package br.com.danielbrai.algorithms.search;
 
+import br.com.danielbrai.algorithms.search.BinarySearch;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

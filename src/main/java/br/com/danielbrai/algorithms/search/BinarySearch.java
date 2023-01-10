@@ -1,4 +1,4 @@
-package br.com.danielbrai.algoritmos;
+package br.com.danielbrai.algorithms.search;
 
 import java.util.Objects;
 
