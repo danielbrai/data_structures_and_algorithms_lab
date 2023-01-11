@@ -14,13 +14,15 @@ A implementação de cada conceito foi baseada principalmente em dois livros, el
 1. [Grokking Algorithms](https://www.amazon.com.br/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230/ref=sr_1_1?crid=I2C3OE544DTY&keywords=grokking+algorithms&qid=1673216612&sprefix=grokk%2Caps%2C267&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678), um grande título que explica os conceitos e ideias relacionados à estruturas de dados e algorítmos usando uma abordagem leve e amigável; 
 2. [A Common-Sense Guide to Data Structures and Algorithms, Second Edition: Level Up Your Core Programming Skills](https://www.amazon.com.br/Common-Sense-Guide-Data-Structures-Algorithms/dp/1680507222/ref=sr_1_1?keywords=a+common-sense+guide+to+data+structures+and+algorithms&qid=1673216777&sprefix=a+common%2Caps%2C330&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74), outra grande obra que fornece uma visão mais aprofundada sobre os conceitos mencionados, com enfoque especial a respeito da disciplina de Análise de Algorítmos, usando principalmente a Notação Bi O.
 
-## Bubble Sort
+## Algoritmos de Ordenação
+
+### Bubble Sort
 
 - baseia-se na ideia de comparar-se repetidamente pares de valores adjacentes em um vetor, trocando suas posições caso a ordem esteja incorreta;
 - **complexidade** &rarr; $O(nˆ2)$, com $n = tamanho\ da\ entrada$, tanto para o pior caso quanto para o caso médio, dado que é necessário percorrer todo o vetor
 - popular, porém ineficiente
 
-## Selection Sort
+### Selection Sort
 
 - baseia-se na ideia de localizar o menor ou maior valor em um vetor não ordenado, colocando-o em sua posição final;
 - **complexidade** &rarr; $O(nˆ2)$, com $n = tamanho\ da\ entrada$, tanto para o pior caso quanto para o caso médio, dado que é necessário percorrer todo o vetor a medida que se busca encontrar os menores ou maiores valores no mesmo.
