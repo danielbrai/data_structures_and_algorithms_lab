@@ -17,6 +17,5 @@ A implementação de cada conceito foi baseada principalmente em dois livros, el
 ## Bubble Sort
 
 - baseia-se na ideia de comparar-se repetidamente pares de valores adjacentes em um vetor, trocando suas posições caso a ordem esteja incorreta;
-- **complexidade** &rarr; $O(nˆ2)$, com $n = tamanho da entrada$, tanto para o pior caso quanto para o caso médio, dado que é necessário percorrer todo o vetor
-- popular, poré
-- **complexidade** &rarr; $O(nˆ2)$, com $n = tamanho da entrada$, tanto para o pior caso quanto para o caso médio, dado que é necessário percorrer todo o vetorm ineficiente
+- **complexidade** &rarr; $O(nˆ2)$, com $n = tamanho\ da\ entrada$, tanto para o pior caso quanto para o caso médio, dado que é necessário percorrer todo o vetor
+- popular, porém ineficiente
