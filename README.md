@@ -19,3 +19,8 @@ A implementação de cada conceito foi baseada principalmente em dois livros, el
 - baseia-se na ideia de comparar-se repetidamente pares de valores adjacentes em um vetor, trocando suas posições caso a ordem esteja incorreta;
 - **complexidade** &rarr; $O(nˆ2)$, com $n = tamanho\ da\ entrada$, tanto para o pior caso quanto para o caso médio, dado que é necessário percorrer todo o vetor
 - popular, porém ineficiente
+
+## Selection Sort
+
+- baseia-se na ideia de localizar o menor ou maior valor em um vetor não ordenado, colocando-o em sua posição final;
+- **complexidade** &rarr; $O(nˆ2)$, com $n = tamanho\ da\ entrada$, tanto para o pior caso quanto para o caso médio, dado que é necessário percorrer todo o vetor a medida que se busca encontrar os menores ou maiores valores no mesmo.
